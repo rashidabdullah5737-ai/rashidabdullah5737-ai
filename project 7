@@ -1,0 +1,126 @@
+# 🛡️ Professional Port Scanner 🔍
+
+![Python](https://img.shields.io/badge/Language-Python-blue?style=for-the-badge&logo=python)
+![Status](https://img.shields.io/badge/Status-Active-success?style=for-the-badge)
+![Author](https://img.shields.io/badge/Author-Abdullah_Rashid-black?style=for-the-badge)
+![Focus](https://img.shields.io/badge/Field-Cybersecurity-red?style=for-the-badge)
+
+---
+
+## 📌 Overview
+
+**Professional Port Scanner** is a **fast, reliable, and customizable network port scanning tool** designed for **ethical hacking, penetration testing, and cybersecurity audits**.  
+
+It allows security enthusiasts and professionals to **detect open ports, services, and vulnerabilities** on target systems efficiently. The project demonstrates advanced **network analysis, Python scripting, and cybersecurity techniques**.
+
+---
+
+## 📝 Features
+
+- 🔍 Scan single or multiple hosts  
+- ⚡ Fast TCP port scanning  
+- 🧰 Customizable port ranges  
+- 🛡️ Detect open ports and running services  
+- 📄 Export scan results to a report file (CSV / TXT)  
+- 🐍 Written entirely in **Python 3**  
+
+---
+
+## 🚀 Installation
+
+```bash
+# Clone the repository
+git clone https://github.com/yourusername/professional-port-scanner.git
+
+# Navigate to the folder
+cd professional-port-scanner
+
+# Install required dependencies
+pip install -r requirements.txt
+```
+
+---
+
+## 🖥️ Usage
+
+```bash
+# Scan a single host
+python scanner.py --host 192.168.1.1
+
+# Scan multiple hosts
+python scanner.py --host 192.168.1.1 192.168.1.2
+
+# Scan a specific port range
+python scanner.py --host 192.168.1.1 --ports 20-1024
+
+# Save results to a file
+python scanner.py --host 192.168.1.1 --output report.txt
+```
+
+---
+
+## ⚡ How It Works
+
+The scanner uses **TCP connection checks** to identify open ports. It **iterates over each port** in the specified range and reports whether the port is open or closed.  
+
+The tool is designed with **efficiency in mind**, using threading to **scan multiple ports simultaneously**, reducing total scan time for large ranges or multiple hosts.
+
+---
+
+## 📊 GitHub Stats & Contribution
+
+### 🐍 Contribution Snake
+![Snake animation](https://github.com/yourusername/yourusername/blob/output/github-contribution-grid-snake.svg)
+
+### 📊 GitHub Stats Dashboard
+![Abdullah's GitHub Stats](https://github-readme-stats.vercel.app/api?username=yourusername&show_icons=true&theme=radical&count_private=true)
+
+### 📈 Top Languages
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yourusername&layout=compact&theme=radical)
+
+---
+
+## 🛠️ Tech Stack
+
+- 🐍 Python 3  
+- ⚡ Socket programming & threading  
+- 🖥️ Works on **Linux / Windows / macOS**  
+
+---
+
+## 🎯 Use Cases
+
+- ✅ Ethical hacking & penetration testing  
+- ✅ Network security audits  
+- ✅ Learning cybersecurity and networking  
+- ✅ Professional portfolio for recruiters  
+
+---
+
+## 📚 Lessons Learned
+
+- Network scanning using **TCP sockets**  
+- Efficient **multi-threading in Python**  
+- Handling network timeouts & errors gracefully  
+- Generating **dynamic reports**  
+- Improving **Python scripting skills** for security tools  
+
+---
+
+## 👨‍💻 Author
+
+**Abdullah Rashid**  
+🐧 Kali Linux & Cybersecurity Enthusiast  
+💻 Ethical Hacking & Python Developer  
+
+## 📬 Contact & Profile
+
+🌐 **Portfolio:** [Portfoliorashidabdullah5737-ai.github.io](https://Portfoliorashidabdullah5737-ai.github.io)  
+💼 **LinkedIn:** [linkedin.com/in/abdullah-rashid-a1554b388](https://www.linkedin.com/in/abdullah-rashid-a1554b388)  
+✉️ **Email:** rashidabdullah5737@gmail.com  
+🐺 **Club:** Cyber Wolf Club — Member
+---
+
+## ⚠️ Disclaimer
+
+This tool is intended for **ethical use only**. Unauthorized scanning of networks without permission is illegal and may result in legal consequences. Use this tool **responsibly**.
