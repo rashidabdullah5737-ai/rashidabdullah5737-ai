@@ -32,7 +32,17 @@
 
 ### 🔧 Kali System Fix Report
 📌 Repository:  
-➡️ https://github.com/rashidabdullah5737-ai/kali-system-fix-report  
+➡️ https://github.com/rashidabdullah5737-ai/kali-system-fix-report 
+https://github.com/rashidabdullah5737-ai/soc-pentest-report-generator.git
+https://github.com/rashidabdullah5737-ai/Web-Application-Security-Assessment-SOC-Style-Recon-Report.git
+https://github.com/rashidabdullah5737-ai/Password-Cracking-Using-JohnTheRipper.git
+https://github.com/rashidabdullah5737-ai/-rashidabdullah5737-ai.github.io.git
+https://github.com/rashidabdullah5737-ai/keylogging-behavior-study.git
+https://github.com/rashidabdullah5737-ai/vm-network-debugging-guide.git
+https://github.com/rashidabdullah5737-ai/MacPF-SOC-Setup.git
+https://github.com/rashidabdullah5737-ai/professional-port-scanner.git
+https://github.com/rashidabdullah5737-ai/Cybersecurity-Projects-Passwordchecker.git
+https://github.com/rashidabdullah5737-ai/cybersecurity-pentest-portfolio.git
 
 📄 Description:  
 Resolution report and steps for fixing **Kali Linux terminal black screen and DBus permission issues**.  
