@@ -28,9 +28,7 @@
 
 ---
 
-## 📂 Featured Project
-
-### 🔧 Kali System Fix Report
+## 📂  Project
 📌 Repository:  
 ➡️ https://github.com/rashidabdullah5737-ai/kali-system-fix-report 
 https://github.com/rashidabdullah5737-ai/soc-pentest-report-generator.git
