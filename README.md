@@ -27,21 +27,32 @@
 - Security Tools
 
 ---
+Here is your repository list updated with clean, professional cybersecurity emojis to make it highly scannable, visually striking, and ready to paste directly into your portfolio or social posts!
 
-## 📂  Project
-📌 Repository:  
-➡️ https://github.com/rashidabdullah5737-ai/kali-system-fix-report 
-➡️ https://github.com/rashidabdullah5737-ai/soc-pentest-report-generator.git
-➡️ https://github.com/rashidabdullah5737-ai/Web-Application-Security-Assessment-SOC-Style-Recon-Report.git
-➡️ https://github.com/rashidabdullah5737-ai/Password-Cracking-Using-JohnTheRipper.git
-➡️ https://github.com/rashidabdullah5737-ai/-rashidabdullah5737-ai.github.io.git
-➡️ https://github.com/rashidabdullah5737-ai/keylogging-behavior-study.git
-➡️ https://github.com/rashidabdullah5737-ai/vm-network-debugging-guide.git
-➡️ https://github.com/rashidabdullah5737-ai/MacPF-SOC-Setup.git
-➡️ https://github.com/rashidabdullah5737-ai/professional-port-scanner.git
-➡️ https://github.com/rashidabdullah5737-ai/Cybersecurity-Projects-Passwordchecker.git
-➡️ https://github.com/rashidabdullah5737-ai/cybersecurity-pentest-portfolio.git
+💻 Open-Source Security Repositories & Toolkits
 
+🛠️ System Hardening: kali-system-fix-report
+
+⚙️ Reporting Automation: soc-pentest-report-generator
+
+📄 Reconnaissance Frameworks: Web-Application-Security-Assessment-SOC-Style-Recon-Report
+
+🔑 Cryptographic Auditing: Password-Cracking-Using-JohnTheRipper
+
+🌐 Live Security Hub: -rashidabdullah5737-ai.github.io
+
+☣️ Malware Behavior Research: keylogging-behavior-study
+
+📡 Network Engineering: vm-network-debugging-guide
+
+🖥️ Defensive Architecture: MacPF-SOC-Setup
+
+🔍 Reconnaissance Engineering: professional-port-scanner
+
+🛡️ Identity Security: Cybersecurity-Projects-Passwordchecker
+
+💼 Core Engineering Portfolio: cybersecurity-pentest-portfolio
+-------------------------------------
 📄 Description:  
 Resolution report and steps for fixing **Kali Linux terminal black screen and DBus permission issues**.  
 Includes:
