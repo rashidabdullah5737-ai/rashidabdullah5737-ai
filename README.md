@@ -27,7 +27,7 @@
 - Security Tools
 
 ---
-Here is your repository list updated with clean, professional cybersecurity emojis to make it highly scannable, visually striking, and ready to paste directly into your portfolio or social posts!
+
 
 💻 Open-Source Security Repositories & Toolkits
 
