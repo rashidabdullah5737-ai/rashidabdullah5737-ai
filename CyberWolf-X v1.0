@@ -1,0 +1,116 @@
+# git-clone-https-github.com-rashidabdullah5737-ai-CyberWolf-X
+
+# 🐺 CYBERWOLF X
+
+> Aggressive Recon Automation Framework for Ethical Hackers & Bug Bounty Hunters
+
+---
+
+## ⚡ Features
+
+* Subdomain Enumeration
+* Deep Reconnaissance
+* Live Host Discovery
+* URL Collection
+* Port Scanning
+* Technology Detection
+* Content Discovery
+* Vulnerability Scanning
+* XSS Testing
+* Automated Reporting
+* Multi-Tool Integration
+
+---
+
+# 🚀 Quick Install (Kali Linux)
+
+```bash
+git clone https://github.com/rashidabdullah5737-ai/CyberWolf-X.git && \
+cd CyberWolf-X && \
+chmod +x install.sh cyberwolf.sh && \
+./install.sh
+```
+
+---
+
+# ▶ Usage
+
+```bash
+./cyberwolf.sh example.com
+```
+
+---
+
+# 🧠 Integrated Tools
+
+| Tool        | Purpose                  |
+| ----------- | ------------------------ |
+| subfinder   | Subdomain Enumeration    |
+| assetfinder | Asset Discovery          |
+| amass       | Deep Enumeration         |
+| httpx       | Live Host Discovery      |
+| gau         | URL Collection           |
+| katana      | Web Crawling             |
+| naabu       | Port Scanning            |
+| nuclei      | Vulnerability Scanning   |
+| dalfox      | XSS Scanning             |
+| ffuf        | Content Discovery        |
+| nmap        | Service Enumeration      |
+| nikto       | Web Vulnerability Checks |
+| whatweb     | Technology Detection     |
+
+---
+
+# 📂 Output Structure
+
+```bash
+CYBERWOLF_target_date/
+├── subs/
+├── live/
+├── urls/
+├── ports/
+├── vulns/
+├── recon/
+└── reports/
+```
+
+---
+
+# 🔥 Example
+
+```bash
+./cyberwolf.sh target.com
+```
+
+---
+
+# 🛡 Disclaimer
+
+CYBERWOLF X is developed strictly for:
+
+* Authorized Security Testing
+* Bug Bounty Programs
+* Educational Purposes
+* Security Research
+
+Unauthorized usage against systems without permission is illegal.
+
+The developer assumes no responsibility for misuse or damage caused by this tool.
+
+---
+
+# 👨‍💻 Author
+
+Abdullah Rashid
+
+GitHub:
+https://github.com/rashidabdullah5737-ai
+
+LinkedIn:
+https://linkedin.com/in/abdullah-rashid-a1554b388
+
+---
+
+# ⭐ CYBERWOLF X
+
+> Hunt attack surfaces. Enumerate everything. Automate recon like a wolf. 🐺
