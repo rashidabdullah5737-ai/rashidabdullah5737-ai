@@ -1,0 +1,63 @@
+# -CyberWolf-Radar-
+An agile, real-time network monitoring and IP tracking dashboard built with Python, Flask, and front-end web technologies. CyberWolf-Radar sniffs, analyzes, and visualizes live network traffic, providing an intuitive interface for network reconnaissance and security auditing.
+
+## 🚀 Features
+
+*   **Real-Time IP Tracking:** Captures and displays active inbound and outbound IP traffic dynamically.
+*   **Packet Analysis:** Inspects network packets to extract essential metadata (source, destination, protocol, and payload size).
+*   **Web-Based Dashboard:** Clean, scannable UI/UX built with HTML/CSS to monitor network activity at a glance.
+*   **Lightweight Backend:** Powered by a Flask microframework for low-overhead packet processing and routing.
+
+---
+
+## 🛠️ Tech Stack
+
+*   **Backend:** Python 3.x, Flask
+*   **Network Capture:** Scapy / Socket Programming (depending on implementation)
+*   **Frontend:** HTML5, CSS3, JavaScript (AJAX/WebSockets for live updates)
+
+---
+
+## 📋 Prerequisites
+
+Because this tool binds to network interfaces to sniff active traffic, **administrative or root privileges are required** to execute the script properly.
+
+*   Python 3.8 or higher installed.
+*   Npcap (for Windows users) or libpcap (for Linux/macOS users) installed on your system.
+
+---
+
+## 🔧 Installation & Setup
+
+1. **Clone the Repository**
+```bash
+   git clone [https://github.com/YOUR_USERNAME/CyberWolf-Radar.git](https://github.com/YOUR_USERNAME/CyberWolf-Radar.git)
+   cd CyberWolf-Radar
+
+   Set Up a Virtual Environment
+
+   # Windows
+   python -m venv venv
+   .\venv\Scripts\activate
+
+   # Linux/macOS
+   python3 -m venv venv
+   source venv/bin/activate
+
+Install Dependencies
+
+pip install -r requirements.txt
+
+⚡ Running the Application
+To intercept network packets, you must run the server with elevated permissions.
+On Windows (Command Prompt / PowerShell as Administrator):
+DOS
+python app.py
+On Linux / macOS:
+Bash
+sudo venv/bin/python app.py
+Once initialized, open your preferred browser and navigate to:
+👉 http://127.0.0.1:5000
+🔍 Troubleshooting & Configuration
+Empty Dashboard / No Packets: Verify that the tool is listening on the correct network interface (e.g., Wi-Fi or Ethernet). If you are running virtual network adapters (WSL, VMware, VirtualBox) or a active VPN, ensure the script is targeting your primary host interface.
+Permission Denied Error
