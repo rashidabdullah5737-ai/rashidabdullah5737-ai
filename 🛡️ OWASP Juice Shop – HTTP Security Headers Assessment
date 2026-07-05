@@ -1,0 +1,153 @@
+# 🛡️ OWASP Juice Shop – HTTP Security Headers Assessment
+
+<p align="center">
+
+![Security](https://img.shields.io/badge/Security-Web%20Application%20Security-blue?style=for-the-badge)
+![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-red?style=for-the-badge)
+![Lab](https://img.shields.io/badge/Lab-OWASP%20Juice%20Shop-orange?style=for-the-badge)
+![Tool](https://img.shields.io/badge/Tool-Burp%20Suite-success?style=for-the-badge)
+![Tool](https://img.shields.io/badge/Tool-cURL-black?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Completed-brightgreen?style=for-the-badge)
+![License](https://img.shields.io/badge/License-MIT-blueviolet?style=for-the-badge)
+
+</p>
+
+---
+
+# 📌 Overview
+
+This repository documents a professional **HTTP Security Headers Assessment** performed against a locally deployed **OWASP Juice Shop** instance. The objective of this lab is to evaluate browser security controls exposed through HTTP response headers, identify missing defensive mechanisms, assess their potential security impact, and recommend remediation aligned with OWASP guidance and modern web security best practices.
+
+The assessment follows a structured vulnerability assessment methodology suitable for learning web application security, technical reporting, and security hardening.
+
+---
+
+# 🎯 Purpose
+
+The purpose of this project is to develop practical skills in identifying and assessing HTTP security headers that help protect modern web applications against browser-based attacks.
+
+This lab demonstrates how to:
+
+* Analyze HTTP response headers
+* Identify missing security controls
+* Understand browser security mechanisms
+* Assess security risks
+* Produce professional security documentation
+* Recommend mitigation strategies
+* Practice industry-standard vulnerability assessment techniques
+
+---
+
+# 🧰 Tools & Environment
+
+| Category         | Tool                         |
+| ---------------- | ---------------------------- |
+| Operating System | Kali Linux                   |
+| Web Application  | OWASP Juice Shop             |
+| Proxy            | Burp Suite Community Edition |
+| Command Line     | cURL                         |
+| Browser          | Chromium / Firefox           |
+| Terminal         | Bash                         |
+
+---
+
+# 🔍 Assessment Scope
+
+The assessment focuses exclusively on HTTP response headers returned by the local OWASP Juice Shop application.
+
+The following security headers were evaluated:
+
+* Content-Security-Policy (CSP)
+* X-Frame-Options
+* X-Content-Type-Options
+* Referrer-Policy
+* Strict-Transport-Security (HSTS)
+
+---
+
+# 🛠 Assessment Methodology
+
+1. Deploy OWASP Juice Shop locally.
+2. Capture HTTP responses using cURL.
+3. Intercept traffic with Burp Suite.
+4. Review response headers.
+5. Verify implemented security controls.
+6. Identify missing security headers.
+7. Assess security impact.
+8. Document evidence.
+9. Recommend remediation.
+10. Prepare a professional assessment report.
+
+---
+
+# 📊 Assessment Results
+
+## ✅ Implemented Headers
+
+* X-Content-Type-Options: nosniff
+* X-Frame-Options: SAMEORIGIN
+
+## ⚠ Missing Headers
+
+* Content-Security-Policy (CSP)
+* Referrer-Policy
+* Strict-Transport-Security (HSTS)
+
+> **Note:** The absence of HSTS is expected because this lab environment operates over HTTP rather than HTTPS.
+
+---
+
+# 🎓 Skills Demonstrated
+
+* Web Application Security
+* Vulnerability Assessment
+* HTTP Protocol Analysis
+* Browser Security Controls
+* Burp Suite Analysis
+* cURL Reconnaissance
+* Security Documentation
+* Technical Reporting
+* Risk Assessment
+* Security Hardening
+
+---
+
+# 📂 Repository Structure
+
+```text
+.
+├── evidence/
+│   ├── headers.txt
+│   ├── curl-output.txt
+│   └── screenshots/
+├── reports/
+│   └── Security-Headers-Assessment.pdf
+├── commands/
+│   └── curl-commands.md
+├── screenshots/
+├── README.md
+└── LICENSE
+```
+
+---
+
+# 📚 Learning Outcomes
+
+After completing this project, I gained hands-on experience in:
+
+* Inspecting HTTP response headers
+* Identifying missing browser security protections
+* Understanding the security impact of misconfigured headers
+* Performing evidence-based vulnerability assessments
+* Writing professional security reports
+* Applying secure configuration recommendations
+
+---
+
+# ⚠ Disclaimer
+
+This assessment was conducted **only** against a locally hosted OWASP Juice Shop instance in a controlled lab environment for educational and authorized security training purposes. No unauthorized systems, third-party applications, or production environments were tested.
+
+---
+
+## ⭐ If you found this repository useful, consider giving it a Star.
