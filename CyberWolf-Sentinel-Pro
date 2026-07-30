@@ -1,0 +1,360 @@
+<div align="center">
+
+# 🐺 CyberWolf Sentinel Pro
+
+### Professional Cybersecurity Reconnaissance & Web Security Assessment Framework
+
+<p align="center">
+
+![Python](https://img.shields.io/badge/Python-3.10+-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Kali%20Linux-557C94?style=for-the-badge&logo=kalilinux&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge)
+![Version](https://img.shields.io/badge/Version-v1.0-blue?style=for-the-badge)
+
+</p>
+
+**CyberWolf Sentinel Pro** is a modular Python-based cybersecurity framework that automates reconnaissance, web security analysis, and infrastructure assessment through an interactive command-line interface.
+
+Built for **students**, **security researchers**, **penetration testers**, and **cybersecurity professionals**.
+
+</div>
+
+---
+
+# 📑 Table of Contents
+
+- Overview
+- Features
+- Project Structure
+- Installation
+- Usage
+- Modules
+- Screenshots
+- Technologies
+- Roadmap
+- Disclaimer
+- Author
+- License
+
+---
+
+# 🚀 Overview
+
+CyberWolf Sentinel Pro provides a centralized platform for performing authorized reconnaissance and security assessments.
+
+The framework combines multiple security modules into one professional terminal application, allowing users to collect information, inspect web technologies, review security configurations, and generate assessment results efficiently.
+
+---
+
+# ✨ Features
+
+## 🌐 Web Security
+
+- HTTP Analysis
+- HTTP Response Inspection
+- HTTP Security Headers
+- Cookie Security Analysis
+- SSL/TLS Inspection
+- Web Technology Detection
+- DNS Enumeration
+- WHOIS Lookup
+
+---
+
+## 🔍 Reconnaissance
+
+- Domain Intelligence
+- DNS Intelligence
+- Subdomain Discovery
+- Web Resource Discovery
+- Web Fingerprinting
+- TLS Intelligence
+- Hosting Intelligence
+
+---
+
+## 🛡 Security Assessment
+
+- Firewall Detection
+- Risk Assessment
+- Security Scoring
+- Misconfiguration Detection
+
+---
+
+## 📊 Reporting
+
+- Interactive Rich Terminal UI
+- Professional Tables
+- Security Summary
+- Risk Levels
+- Assessment Reports
+
+---
+
+# 📂 Project Structure
+
+```text
+CyberWolf-Sentinel-Pro
+│
+├── assets/
+├── core/
+├── docs/
+├── logs/
+├── modules/
+├── reports/
+├── screenshots/
+├── templates/
+├── tests/
+├── utils/
+│
+├── config.py
+├── main.py
+├── menu.py
+├── requirements.txt
+├── README.md
+└── LICENSE
+```
+
+---
+
+# ⚙ Installation
+
+## 1️⃣ Clone the Repository
+
+```bash
+git clone https://github.com/rashidabdullah5737-ai/CyberWolf-Sentinel-Pro.git
+cd CyberWolf-Sentinel-Pro
+```
+
+---
+
+## 2️⃣ Create Virtual Environment
+
+```bash
+python3 -m venv venv
+```
+
+---
+
+## 3️⃣ Activate Virtual Environment
+
+### Kali Linux / Ubuntu / macOS
+
+```bash
+source venv/bin/activate
+```
+
+### Windows
+
+```cmd
+venv\Scripts\activate
+```
+
+---
+
+## 4️⃣ Upgrade pip
+
+```bash
+pip install --upgrade pip
+```
+
+---
+
+## 5️⃣ Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 6️⃣ Launch the Framework
+
+```bash
+python3 main.py
+```
+
+---
+
+## 7️⃣ Exit Virtual Environment
+
+```bash
+deactivate
+```
+
+---
+
+# 💻 Usage
+
+Start the application:
+
+```bash
+python3 main.py
+```
+
+Example menu:
+
+```text
+🐺 CyberWolf Sentinel Pro
+
+[1] Web Security Assessment
+[2] Reconnaissance
+[3] Firewall Analysis
+[4] SSL/TLS Analysis
+[5] DNS Intelligence
+[6] WHOIS Lookup
+[7] Technology Detection
+[8] Cookie Security
+[9] Exit
+```
+
+---
+
+# 🧩 Modules
+
+| Module | Description |
+|---------|-------------|
+| HTTP | HTTP request & response analysis |
+| Headers | Security header inspection |
+| SSL/TLS | Certificate & TLS analysis |
+| DNS | DNS enumeration |
+| WHOIS | Domain registration lookup |
+| Cookies | Cookie security analysis |
+| Technology | Web technology detection |
+| Firewall | Security configuration overview |
+| Risk | Security scoring & assessment |
+
+---
+
+# 📸 Screenshots
+
+Add screenshots to the `screenshots/` directory.
+
+```text
+screenshots/
+├── banner.png
+├── menu.png
+├── scan.png
+├── report.png
+└── summary.png
+```
+
+Example:
+
+<p align="center">
+<img src="screenshots/menu.png" width="900">
+</p>
+
+---
+
+# 🛠 Technologies
+
+- Python 3
+- Rich
+- Requests
+- DNSPython
+- Python-WHOIS
+- OpenSSL
+- Socket
+- JSON
+- Linux Networking
+
+---
+
+# 📋 Requirements
+
+- Python 3.10+
+- Kali Linux (Recommended)
+- Ubuntu
+- Debian
+- macOS
+- Windows
+
+---
+
+# 🗺 Roadmap
+
+- Web Vulnerability Scanner
+- Port Scanner
+- Service Detection
+- Network Discovery
+- HTML Report Generation
+- PDF Report Export
+- CVE Lookup
+- OSINT Integration
+- Plugin System
+- Dashboard
+
+---
+
+# ⚠ Disclaimer
+
+CyberWolf Sentinel Pro is intended **only for educational purposes and authorized security testing**.
+
+Users must obtain proper authorization before testing any systems or networks.
+
+The author is **not responsible** for misuse of this software.
+
+---
+
+# 👨‍💻 Author
+
+## Abdullah Rashid
+
+Cybersecurity Learner • Kali Linux Enthusiast • Open Source Contributor
+
+**GitHub**
+
+https://github.com/rashidabdullah5737-ai
+
+**LinkedIn**
+
+https://www.linkedin.com/in/abdullah-rashid-a1554b388
+
+**Email**
+
+abdullahrashid5737@gmail.com
+
+---
+
+# 🤝 Contributing
+
+Contributions are welcome.
+
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a Pull Request
+
+---
+
+# ⭐ Support
+
+If you find this project useful:
+
+⭐ Star the repository
+
+🍴 Fork the repository
+
+🐛 Report bugs
+
+💡 Suggest new features
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+---
+
+<div align="center">
+
+**Made with ❤️ using Python & Kali Linux**
+
+🐺 **CyberWolf Sentinel Pro**
+
+</div>
